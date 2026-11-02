@@ -11,11 +11,13 @@ Reusable skills and project guidance for Codex and other compatible agents.
 | Skill | Use it for |
 | --- | --- |
 | [`code-review-bounded`](skills/code-review-bounded/SKILL.md) | Reviewing a change against its requirements and repository standards, with evidence-based findings and a defined stopping point. |
+| [`implement`](skills/implement/SKILL.md) | Implementing work described in a spec or tickets, with regular checks and a final code review. |
 | [`simplicity-review`](skills/simplicity-review/SKILL.md) | Reviewing a non-trivial implementation for complexity that can be removed without changing behavior. |
 
 ## Using the skills
 
 - Ask for a review with `code-review-bounded`.
+- Use `implement` for work described by a spec or tickets.
 - Use `simplicity-review` after a non-trivial implementation and before the final code review.
 
 ## Repository layout
